@@ -7,6 +7,7 @@
     "npm": "6.x",
     "node": "16.x"
   },
+  "types": "module",
   "scripts": {
     "seed": "ts-node ./server/seed/seed.ts",
     "start": "ts-node server/server.ts",
