@@ -7,12 +7,12 @@
     "npm": "6.x",
     "node": "16.x"
   },
-  "types": "module",
+  "type": "module",
   "scripts": {
     "seed": "ts-node ./server/seed/seed.ts",
     "start": "ts-node server/server.ts",
     "build": "vite build",
-    "dev": "concurrently \"vite serve\" \"ts-node server/server.ts\"",
+    "dev": "concurrently \"vite serve\" \"node server/server.ts\"",
     "preview": "vite preview"
   },
   "author": "Kris Magat, Anthony Al-Rifai, Adrian Reczek, Santiago Gil, Kevin Wang",
