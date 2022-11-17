@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react';
 import EnvironmentPlugin from 'vite-plugin-environment'
 import { resolve } from 'path'
 
-dns.setDefaultResultOrder('verbatim');
+// dns.setDefaultResultOrder('verbatim');
 
 export default defineConfig({
   server: {
